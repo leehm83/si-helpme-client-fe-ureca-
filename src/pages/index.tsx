@@ -60,9 +60,12 @@ export default function Home() {
       <Head>
         <title>{TITLE}</title>
         <meta name="description" content={DESCRIPTION} />
-        <meta name="keywords" content="법률사무소, 변호사, 상담, 민사, 형사, 가사, 상속, 기업자문, 도약" />
+        <meta name="keywords" content="개인회생, 개인파산, 서울개인회생, 인천개인회생, 개인회생변호사, 개인회생상담, 개인회생전문, 살려줘닷컴" />
         <meta name="author" content={SITE_NAME} />
         <link rel="canonical" href={SITE_URL} />
+
+        {/* 네이버 소유권 확인 태그 추가 */}
+        <meta name="naver-site-verification" content="fb210e8110f0411bfd0a2bed41c9e146acddf11e" />
 
         {/* Open Graph */}
         <meta property="og:type" content="website" />
